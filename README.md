@@ -102,6 +102,12 @@ The `Account` and `Offer` classes have to follow the specification of the UML di
 | - `int accountNumber`
 | - `double balance`
 | - `Offer offer`
+| ---------------------
+|<<constructor>> Account (int acnum, double bal, Offer of)
+|+ deposit(double amount)
+|+ withdraw(double amount)
+|+ getBalance() : double
+|+ getOffer() : Offer
 
 | Offer
 | ---------------------------------------------------------------------------
