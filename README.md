@@ -102,20 +102,20 @@ The `Account` and `Offer` classes have to follow the specification of the UML di
 | - `int accountNumber`
 | - `double balance`
 | - `Offer offer`
-|*constructor* Account (int acnum, double bal, Offer of)
-|+ deposit(double amount)
-|+ withdraw(double amount)
-|+ getBalance() : double
-|+ getOffer() : Offer
+|*constructor* `Account (int acnum, double bal, Offer of)`
+|+ `deposit(double amount)`
+|+ `withdraw(double amount)`
+|+ `getBalance() : double`
+|+ `getOffer() : Offer`
 
 | Offer
 | ---------------------------------------------------------------------------
 | - `int offerId`
 | - `String offerText`
-| *constructor* Offer(int id, String text)
+| *constructor* `Offer(int id, String text)`
 | + `setOffer (String newOffer)`
 | + `getOfferText() : String`
-| + get OfferId(): int`
+| + `get OfferId(): int`
 
 The source code of the two Java file must also pass additional tests set by the [GatorGrader tool](https://github.com/GatorEducator/gatorgrade). As before, GatorGrader will check to ensure that one of the Java files uses the `new Date()` construct in the Java code. Moreover, GatorGrader will check the following characteristics of your implementation:
 
